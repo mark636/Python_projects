@@ -48,7 +48,7 @@ window.title("Password Manager")
 window.config(padx=50, pady=50)
 
 canvas = Canvas(width=200, height=200)
-logo = PhotoImage(file=r"logos\logo.png")  # Use raw string
+logo = PhotoImage(file=r"C:\Users\marko\Python_projects\Python_projects\Python_projects\logos\logo.png")  # Use raw string
 canvas.create_image(100, 100, image=logo)
 canvas.grid(column=1, row=0)
 
