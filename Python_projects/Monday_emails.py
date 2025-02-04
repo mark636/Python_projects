@@ -9,7 +9,6 @@ if weekday == 1:
         quotes = file.readlines()
         quote = random.choice(quotes)
 
-    print(quote)
     my_email = "markous007@gmail.com"
     password = "axhhhezwdrksgtrs"
     with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
