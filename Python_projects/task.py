@@ -1,1 +1,4 @@
-print("670592745 / 12345", 670592745 / 12345)
+try:
+    file = open("dataaaa.txt")
+except FileNotFoundError:
+    file = open("dataaaa.txt","w")
