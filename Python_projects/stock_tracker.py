@@ -1,5 +1,4 @@
 import requests
-from twilio.rest import Client
 
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
