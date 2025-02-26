@@ -59,13 +59,6 @@ if diff_percentage > 1:
     three_articles = articles[:3]
     print(three_articles)
 
-    ## STEP 3: Use twilio.com/docs/sms/quickstart/python
-    #to send a separate message with each article's title and description to your phone number. 
-
-#TODO 8. - Create a new list of the first 3 article's headline and description using list comprehension.
-
-#TODO 9. - Send each article as a separate message via Twilio. 
-
 
 
 #Optional TODO: Format the message like this: 
